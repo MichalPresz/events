@@ -15,3 +15,10 @@ counterButton.addEventListener("click", function () {
 
   counterButton.textContent = `Clicks: ${count}`;
 });
+
+const backgroundButton = document.getElementById("bg-colour-button");
+backgroundButton.addEventListener("click", function () {
+  document.body.style.backgroundColor = "yellow";
+});
+
+console.dir(document);
